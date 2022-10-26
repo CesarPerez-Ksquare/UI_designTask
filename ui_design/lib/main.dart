@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ui_design/screens/practice_14.dart';
+import 'package:ui_design/screens/practice_15.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'UI - Design Task',
-      home: const Practice14(),
+      home: const Practice15(),
     );
   }
 }
