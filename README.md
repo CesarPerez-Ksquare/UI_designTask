@@ -1,6 +1,6 @@
 # ui_design
 
-A new Flutter project with 26 screens practice.
+A new Flutter project with 23 screens practice.
 
 ## Practices
 
@@ -72,13 +72,3 @@ A new Flutter project with 26 screens practice.
 
 ### Practice 23
 ![Practice 23](./ui_design/screenshots/practice_23.png)
-
-### Practice 24
-![Practice 24](./ui_design/screenshots/practice_24.png)
-
-### Practice 25
-![Practice 25](./ui_design/screenshots/practice_25.png)
-
-### Practice 26
-![Practice 26](./ui_design/screenshots/practice_26.png)
-
