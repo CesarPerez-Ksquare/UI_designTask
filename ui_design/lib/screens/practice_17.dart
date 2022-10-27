@@ -18,6 +18,11 @@ class Practice17 extends StatelessWidget {
               color: const Color(0xFFf4f4f4),
               child: Stack(children: [
                 Image.asset('images/food.jpg'),
+                const Positioned(
+                  top: 10,
+                  right: 30,
+                  child: Icon(Icons.favorite_border),
+                ),
                 Align(
                   alignment: Alignment.bottomLeft,
                   child: Container(
