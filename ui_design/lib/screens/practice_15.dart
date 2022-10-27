@@ -14,11 +14,11 @@ class Practice15 extends StatelessWidget {
           child: Column(
             children: [
               Align(
-                alignment: Alignment.topCenter,
-                child: Container(
-                  child: Expanded(child: Image.asset('images/food.jpg')),
-                ),
-              ),
+                  alignment: Alignment.topCenter,
+                  child: Image.asset(
+                    'images/food.jpg',
+                    fit: BoxFit.cover,
+                  )),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
