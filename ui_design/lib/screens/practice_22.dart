@@ -6,7 +6,9 @@ class Practice22 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(),
+        appBar: AppBar(
+          backgroundColor: Color(0xFF1877f2),
+        ),
         backgroundColor: Colors.white,
         body: ListView(children: [
           Padding(

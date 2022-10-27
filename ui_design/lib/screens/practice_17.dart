@@ -17,17 +17,24 @@ class Practice17 extends StatelessWidget {
               width: 400,
               color: const Color(0xFFf4f4f4),
               child: Stack(children: [
-                Image.asset('images/food.jpg'),
-                const Positioned(
-                  top: 10,
-                  right: 30,
-                  child: Icon(Icons.favorite_border),
+                Image.asset(
+                  'images/food.jpg',
+                  height: 250,
+                  width: 400,
+                  fit: BoxFit.cover,
+                ),
+                const Align(
+                  alignment: Alignment.topRight,
+                  child: Padding(
+                    padding: EdgeInsets.all(8.0),
+                    child: Icon(Icons.favorite_border),
+                  ),
                 ),
                 Align(
                   alignment: Alignment.bottomLeft,
                   child: Container(
                     height: 60,
-                    width: 376.5,
+                    width: double.infinity,
                     color: Colors.blue.withOpacity(0.5),
                     child: Row(
                         crossAxisAlignment: CrossAxisAlignment.center,
