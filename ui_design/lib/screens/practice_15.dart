@@ -26,6 +26,7 @@ class Practice15 extends StatelessWidget {
                     margin: const EdgeInsets.fromLTRB(10, 20, 0, 10),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.start,
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: const [
                         Text(
                           'Stew Chicken',
